@@ -11,6 +11,7 @@ html,body{
 }
 
 nav{
+    position: fixed;
     display: flex;
     height: 80px;
     width: 100%;
@@ -84,7 +85,7 @@ section{
     /* background-color: red; */
     /* height: 500px; */
     width: 33%;
-    border-left: 1px solid black;
+    border-left: 2px solid black;
     height: 85%;
     display: flex;
     justify-content: space-between;
@@ -106,4 +107,78 @@ section{
     margin-right: 10px;
 
 }
+
+
+.work{
+    /* width: 70%; */
+    height: 550px;
+    /* background-color: red; */
+    border-top:2px solid black ;
+    border-bottom:2px solid black ;
+    margin: 0px 60px;
+    display: flex;
+
+}
+
+.work-part-one{
+    display: flex;
+    width: 30%;
+    height: 80%;
+    justify-content: space-between;
+    margin:60px 0px;
+    border-right: 2px solid black;
+    padding-right: 20px;
+}
+.work-part-one>p, .work-part-one>i{
+    font-size: 25px;
+}
+
+.work-part-two{
+    margin:60px 40px;
+    width: 70%;
+
+}
+
+.first-child{
+    display: flex;
+}
+
+.first-child:nth-child(1){
+    border-bottom: 2px solid black;
+    padding-bottom: 50px;
+}
+.first-child:nth-child(2){
+     padding-top: 50px; 
+}
+
+
+.elem{
+    width: 50%;
+    padding-right:40px;
+
+}
+
+/* .elem:nth-child(1){
+    padding-right:40px;
+} */
+
+.elem:nth-child(2){
+    border-left: 2px solid black;
+    padding-left:40px;
+}
+
+
+.elem h4{
+    font-size: 35px;
+    font-weight: 600;
+}
+.elem p{
+    font-size: 17px;
+    padding-right: 17px;
+    line-height: 28px;
+    margin-top:10px;
+    color:#646364
+}
+
+
 
