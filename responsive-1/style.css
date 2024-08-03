@@ -125,10 +125,10 @@ span{
 /* about */
 .about{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: flex-end;
     gap:4.5vw;
-    padding:13vw;
+    padding:2.7vw 12vw;
     padding-left: 48vw;
     padding-right: -2vw;
 
@@ -146,8 +146,9 @@ span{
 
 .about-part-02 p{
     margin-bottom: 20px;
-    line-height: 1.7;
-    font-weight: 600;
+    line-height: 1.5;
+    /* font-weight: 600; */
+    font-size: 1vw;
 }
 
 .about-part-02 a{
@@ -158,6 +159,33 @@ span{
     text-decoration: none;
     
 }
+
+.subscribe{
+    padding:2vw 3.5vmax;
+    line-height: 1.4vw;
+    margin-bottom: 7vw;
+}
+
+.subscribe h5{
+    opacity: .6;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1vw 3.5vmax;
+}
+
+footer .left,.right{
+    display: flex;
+    gap:2vmax
+}
+
+/* footer {
+    display: flex;
+    gap:2vmax
+} */
 
 
 @media (max-width: 600px) {
