@@ -131,7 +131,6 @@ span{
     padding:2.7vw 12vw;
     padding-left: 48vw;
     padding-right: -2vw;
-
 }
 
 .about img{
@@ -148,7 +147,7 @@ span{
     margin-bottom: 20px;
     line-height: 1.5;
     /* font-weight: 600; */
-    font-size: 1vw;
+    /* font-size: 1vmax; */
 }
 
 .about-part-02 a{
@@ -161,9 +160,9 @@ span{
 }
 
 .subscribe{
-    padding:2vw 3.5vmax;
-    line-height: 1.4vw;
-    margin-bottom: 7vw;
+    padding:2vmax 3.5vmax;
+    line-height: 1.4vmax;
+    margin: 7vw 0px;
 }
 
 .subscribe h5{
@@ -201,5 +200,22 @@ footer .left,.right{
     }
     .elem h5{
         font-size: 1vh;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding:10%;
+    }
+
+    .about img{
+        height: 65vh;
+        margin-bottom: 5vh;
+    }
+    .about-part-02 h5{
+        margin-bottom: 1.5vh;
+    }
+
+    .subscribe h5{
+        line-height: 6vmax;
     }
 }
