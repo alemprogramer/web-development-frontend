@@ -8,23 +8,35 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"
 />
+<link rel="stylesheet" href="locomotive-scroll.css"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <main>
+    <div class="miniCircle"></div>
+    <main id="main">
         <nav>
             <h3>Cynthia Ugwu</h3>
             <h4 class="menu">Menu<span>+</span></h4>
         </nav>
         <div class="hero">
-            <h1>Product</h1>
+            <div class="hidden">
+                <h1 class="hiddenElem">Product</h1>
+            </div>
             <div class="section">
-                <h1>Designer</h1>
-                <h3>Base in toronto</h3>
+                <div class="hidden">
+                    <h1 class="hiddenElem" >Designer</h1>
+                </div>
+                <div class="hiddenUpper">
+                    <h3 >Base in toronto</h3>
+                </div>
             </div>
             <div class="second-section">
-                <p>AVAILABLE FOR FREELANCE</p>
-                <p>WORK FROM MAY 23'</p>
+                <div class="hiddenUpper">
+                    <h3>AVAILABLE FOR FREELANCE</h3>
+                </div>
+                <div class="hiddenUpper">
+                    <h3>WORK FROM MAY 23'</h3>
+                </div>
             </div>
             <div class="section-three">
                 <p>CURRENTLY WORKING AT YML <i class="ri-arrow-right-up-line"></i></p>
@@ -79,5 +91,9 @@
 
 
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js" ></script>
+    <script src="script.js"></script>
 </body>
 </html>
