@@ -35,8 +35,9 @@ body{
 }
 
 nav{
+    position:sticky;
     width: 100%;
-    z-index: 100;
+    z-index: 999;
     display: flex;
     padding:2vw 3.3vmax;
     align-items: center;
@@ -118,6 +119,7 @@ span{
 }
 
 .elem{
+    position: relative;
     border-top:  .5px solid #ddd;
     font-size: 3.5vw;
     font-weight: 600;
@@ -126,10 +128,20 @@ span{
     align-items: center;
     justify-content: space-between;
     padding: 3.5vw 0px;
+    width: 100%;
 }
 .elem h1{
     opacity: 60%;
     
+}
+
+.elem img{
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .elem:nth-child(3){
